@@ -1,4 +1,6 @@
 # Задание 2: Методы строк
+from Homeworks.homework_4.task_2 import data_count
+
 data = "  Some text with extra spaces and, some, commas  "
 
 # Условие 1 Удалите лишние пробелы в начале и конце строки.
@@ -14,7 +16,7 @@ data_upper = data_dot_replace.upper()
 print(data_upper)
 
 # Условие 4 Подсчитайте количество слов в строке (разделитель — пробел).
-data_count = len(data_upper.split())
+data_split = data_upper.split()
+print(data_split)
+data_count = len(data_split)
 print(data_count) # Не понимаю почему мой ответ отличается
-
-!!!!!!!!!!!

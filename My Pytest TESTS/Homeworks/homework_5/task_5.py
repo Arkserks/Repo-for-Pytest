@@ -17,9 +17,8 @@ c_str_list = c_str.split(",")
 new_list = [a_str_list[0], b_str_list[0], c_str_list[0]]
 print(new_list)
 # Условие 3 Объедините все строки из пункта 1 в одну строку, разделяя их символом ;.
-sum_str = a_str + b_str + c_str
-sum_str_replace = sum_str.replace(",", ";")
-print(sum_str_replace)
+sum_str = '; '.join([a_str, b_str, c_str])
+print(sum_str)
 # Условие 4 Выведите строку, где все фрукты написаны в верхнем регистре.
 upper_str = sum_str.upper()
 print(upper_str) # Не понимаю почему в твоем примере вывода есть ;

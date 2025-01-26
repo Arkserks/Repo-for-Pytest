@@ -8,7 +8,7 @@ print(first_6_symbols)
 # Условие 2 Выведите последнее слово строки.
 index_last_word = text.index("language")
 last_word = text[index_last_word:]
-last_word2 = text.split()[5]
+last_word2 = text.split()[-1]
 print(last_word)
 print(last_word2) # Не понимаю почему не работает
 
