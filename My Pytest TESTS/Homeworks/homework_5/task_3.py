@@ -9,9 +9,6 @@ print(words_to_str)
 words_len = len(words[0]), len(words[1]), len(words[2]), len(words[3]), len(words[4])
 print(words_len) # Не понимаю почему мой ответ отличается
 
-# Условие 3 Создайте новый список, содержащий только слова, длина которых больше 5 символов.
-# не понимаю как делать.
-
 # Условие 4 Выведите строку, где каждое слово начинается с заглавной буквы.
 title_text = words_to_str.title()
 print(title_text)
